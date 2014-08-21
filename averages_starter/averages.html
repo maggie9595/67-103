@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>Calculating Averages</title>
+  <meta name="author" content="Prof. H">
+  <link rel="stylesheet" href="css/main.css" type="text/css" charset="utf-8" />
+  <link rel="stylesheet" href="css/averages.css" type="text/css" charset="utf-8" />
+  <script type="text/javascript" src="js/averages.js"></script>
+  </head>
+  <body id="averages" onLoad="setFocus()">
+    <div id="content">
+      <form name="avgForm" id="avgForm" method="get" action="#">
+        <p>
+          Enter a number in each box:<br />
+          <input type="text" name="number1" value="" onBlur="GetNumbersAndAverage()"><br>
+          <input type="text" name="number2" value="" onBlur="GetNumbersAndAverage()"><br>
+          <input type="text" name="number3" value="" onBlur="GetNumbersAndAverage()"><br>
+        </p>
+      </form>
+
+      <h3>Average: <span id="displayAverage"></span></h3>
+    </div>
+  </body>
+</html>

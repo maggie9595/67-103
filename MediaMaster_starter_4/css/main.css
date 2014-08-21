@@ -1,0 +1,114 @@
+/* CSS for MediaMaster :: 67-103 Exercise 4 */
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #CCFFFF;
+	color: #330000;
+	font-size: 1em;
+	font-family: 'Sofadi One', cursive;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	/*color: ;*/
+	font-family: 'Sofadi One', cursive;
+}
+
+h1 { 
+	font-size: 2em; 
+	font-family: Journal;
+}
+
+h2 { 
+	font-size: 1.4em; 
+	font-family: Journal;
+}
+
+a {
+	text-decoration: none;
+	/*color: ;*/
+	font-family: Sansation_Bold;
+}
+
+a:hover {
+	/*color: ;*/
+	text-decoration: underline;
+}
+
+/* HEADER */
+header {
+	margin-left: 30px;
+	margin-top: 10px;
+}
+
+header h1 { /*color: ;*/ }
+
+/* NAV */
+nav {
+	width: 100%;
+	height: 36px;
+	background: #9900FF;
+	font-family: 'Sofadi One', cursive;
+}
+
+nav ul {
+	list-style: none;
+	line-height: normal;
+	font-family: 'Sofadi One', cursive;
+}
+
+nav li a {
+	float: left;
+	color: white;
+	padding: 10px 15px 0px 15px;
+	font-family: 'Sofadi One', cursive;
+}
+
+/* CONTENT */
+#content { margin: 10px; }
+
+/* FOOTER */
+footer {
+	text-align: center;
+	margin-top: 30px;
+	padding: 5px;
+	/*background: ;*/
+	font-size: 90%;
+	font-family: 'Sofadi One', cursive;
+}
+
+/* TABLE */
+table {
+	width: 90%;
+	margin-left: 10px;
+	padding: 15px;
+	cellspacing: 10px;
+	border-collapse:collapse;
+}
+
+thead {
+	/*background: ;*/
+	/*color: ;*/
+	vertical-align: center;
+	height: 80px;
+	border: solid 1.5px;
+}
+
+table .title { 
+	width: 200px; 
+	vertical-align: top;
+	/*color: ; */
+}
+
+table .year { 
+	width: 80px; 
+	vertical-align: top; 
+	text-align: center;
+}
+
+tr { border-bottom: solid 1.5px; }
+th { padding: 5px; }
+td { padding: 10px; }

@@ -1,0 +1,33 @@
+DANIEL DAY_LEWIS 
+Year	Movie	                          Role	        Nominated	        Won
+1985	A Room with a View	            Cecil Vyse	  Supporting Actor	
+1988	Unbearable Lightness of Being	  Tomas		
+1989	My Left Foot	                  Christy Brown		              Best Actor
+1992	The Last of the Mohicans	      Hawkeye		
+1993	In the Name of the Father	      Gerry Conlon	Best Actor	
+1996	The Crucible	John Proctor		
+2002	Gangs of New York	              Bill Cutting	Best Actor	
+2007	There Will Be Blood	            Daniel Plainview		          Best Actor
+2013	Lincoln	                        Abraham Lincoln		            Best Actor
+
+Summary
+Best actor in 1989, 2007, 2013
+Nominated in 1985, 1993, 2002
+
+
+TOP BOX-OFFICE
+This Week	Last Week	Title	                	
+1	        --	      G.I. Joe: Retaliation
+2	        1	        The Croods	          
+3	        --	      Temptation	          
+4	        2	        Olympus Has Fallen	  
+5	        3	        Oz the Great and Powerful
+
+
+TOP RENTALS
+rk  title               days released
+1	  The Hobbit	        14
+2	  Les Misérables	    11
+3	  Lincoln	            7
+4	  Zero Dark Thirty    14    
+5	  Killing Them Softly	7

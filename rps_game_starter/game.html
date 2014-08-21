@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>67-103 :: Fundamentals of Web Design</title>
+    <meta name="author" content="Maggie Yu">
+    <link rel="stylesheet" href="css/main.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="css/game.css" type="text/css" charset="utf-8" />
+    <script src="js/rps_game.js"></script>
+  </head>
+  <body>
+  	<div id="container">
+  	  <div id="wrapper">
+  	  	<section id="content">
+	  	  
+  	  		<h2>Rock-Paper-Scissors Game</h1>
+          <h3>A Javascript Exercise</h2>
+
+            <h4>Instructions</h4>
+            <p>
+                Click a button to choose what you want to 'throw', that is, choose either rock, paper or 
+                scissors. The computer will randomly choose a value as well. Remember that paper covers 
+                (wins over) rock, scissors cut (wins over) paper, and rock breaks (wins over) scissors.  
+                If you and the computer throw the same item, it's a draw and no one gets a point.
+            </p>
+            <p id="controls">
+                <!-- for each button, use onclick handler to call the throwHand method -->
+                <input type="button" value="Rock" onclick="throwHand(1);">
+                <input type="button" value="Paper" onclick="throwHand(2);">
+                <input type="button" value="Scissors" onclick="throwHand(3);">
+            </p>
+            <h3>Score</h3>
+            <ul id="scoreBoard">
+                <li>
+                    Wins: <span id="win">0</span>
+                </li>
+                <li>
+                    Losses: <span id="lose">0</span>
+                </li>
+                <li>
+                    Draws: <span id="draw">0</span>
+                </li>
+            </ul>
+
+          <p>&nbsp;</p>
+	  		
+  	  	</section>
+  	  </div>
+      <footer>
+        <p>Webmaster: Maggie Yu</p>
+      </footer>
+  	</div>
+  </body>
+</html>

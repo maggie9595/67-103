@@ -1,0 +1,59 @@
+body {
+	background: #FFF4DA;
+}
+
+#toprentals {
+	float:right;
+	width: 340px;
+	border-radius:10px;
+	-moz-border-radius: 10px;
+	padding: 10px 10px 5px 15px;
+	margin-left: 630px;
+	margin-bottom: 10px;
+	font-size: 95%;
+	background: #DEF;
+	border: solid 2px #000080;
+}
+
+#toprentals li {
+	padding-bottom: 7px;
+}
+
+footer {
+	text-align: center;
+	margin-top: 30px;
+	padding: 5px;
+	background: #B3B3B3;
+	font-size: 90%;
+	clear:both;
+}
+
+/* TABLE */
+table {
+	position:absolute;
+	left:0px;
+	width: 60%;
+	margin-left: 10px;
+	padding: 15px;
+	cellspacing: 10px;
+	border-collapse:collapse;
+	text-align: center;
+}
+
+thead {
+	/*background: ;*/
+	/*color: ;*/
+	height: 80px;
+	border: solid 1.5px;
+}
+
+table .title { 
+	width: 100px; 
+	/*color: ; */
+}
+
+table .year { 
+	width: 100px; 
+}
+
+tr { border-bottom: solid 1.5px; }

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact MediaMaster</title>
+    <meta name="author(s)" content="Prof. H" />
+    <link rel="stylesheet" href="css/fonts.css" type="text/css" charset="utf-8">
+    <link rel="stylesheet" href="css/main.css" type="text/css" charset="utf-8">
+  </head>
+  <body id="home">
+    <header>
+      <h1>Contact MediaMaster</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="movies.html">Movies</a></li>
+        <li><a href="music.html">Music</a></li>
+        <li><a href="http://www.themoviedb.org/">MovieDB</a></li>
+        <li><a href="http://www.rottentomatoes.com
+          /">Rotten Tomatoes</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+    <div id="content">
+          
+       <!-- NEED A STARTING FORM TAG; NAME THE FORM "contact"; SUBMIT DATA VIA POST; -->
+      <form name="contact" method="post" action="http://pawn.hss.cmu.edu/~67103/contact.php">
+      <!-- SEND DATA TO "http://pawn.hss.cmu.edu/~67103/contact.php" -->
+        
+  			<table cellspacing="0" cellpadding="5" border="0" width="600">
+  				<tr>
+  					<td width="160">Name:</td>
+  					<td>
+  				    <input type="text" name="name"><br />
+  					</td>
+  				</tr>
+
+  				<tr>
+  					<td>Gender:</td>
+  					<td>
+  					  
+              <!-- NEED A SET OF RADIO BUTTONS CALLED "gender"; RETURNS "F","M" or "A" -->
+              <input type="radio" name="gender" value="F">Female<br>
+              <input type="radio" name="gender" value="M">Male<br>
+              <input type="radio" name="gender" value="A">Alien<br>
+
+  					</td>
+  				</tr>
+  				<tr>
+  					<td>
+  						Year at CMU:
+  					</td>
+  					<td>
+  					  
+              <!-- NEED A DROP-DOWN MENU CALLED "cmu_class" WHICH  -->
+              <!-- DISPLAYS THE YEAR ['Senior', 'Junior', etc...] -->
+              <!-- BUT SENDS THE GRAD YEAR [2013, 2014, etc.] -->
+              <select name="cmu_class">
+                <option value="2014">Senior</option>
+                <option value="2015">Junior</option>
+                <option value="2016">Sophomore</option>
+                <option value="2017">Freshman</option>
+              </select> 
+
+  					</td>
+  				</tr>
+  				<tr>
+  					<td>
+  						E-mail address:
+  					</td>
+  					<td>
+  					  
+              <!-- NEED A TEXTBOX CALLED "email" -->
+              <input type="text" name="email"><br />
+
+  					</td>
+  				</tr>
+  				<tr>
+  					<td>I promise:</td>
+  					<td>
+  					  
+              <!-- NEED A CHECKBOX CONTROL CALLED "jail" WITH A VALUE OF "Y" -->
+              <input type="checkbox" name="jail" value="Y">
+
+  						I promise to stay of out jail during Carnival.
+  					</td>
+  				</tr>
+  				<tr>
+  					<td>
+  						Comments:
+  					</td>
+  					<td>
+  					  
+              <!-- NEED A LARGE TEXTBOX CALLED "comments" THAT IS 20 cols AND 5 rows -->
+              <textarea name="comments" rows="5" cols="20">
+
+              </textarea>
+  					</td>
+  				</tr>
+  				<tr>
+  					<td>
+  						&nbsp;
+  					</td>
+  					<td>
+  					  
+              <!-- NEED A SUBMIT BUTTON  -->
+              <input type="submit" value="Submit">
+
+  					</td>
+  				</tr>
+  			</table>
+  		
+      <!-- END THE FORM TAG HERE -->
+      </form>
+    </div>
+    <footer>
+      <p>Webmaster: Maggie Yu</p>
+      <p>&copy; 2014 Maggie Yu</p>
+    </footer>
+  </body>
+</html>

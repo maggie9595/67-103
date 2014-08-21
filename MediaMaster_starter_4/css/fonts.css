@@ -1,0 +1,16 @@
+/* CSS for MediaMaster :: 67-103 Exercise 4 */
+
+@font-face {
+	font-family: 'Sansation';
+	src: url('../fonts/Sansation/Sansation_Regular.ttf');
+}
+
+@font-face {
+	font-family: 'Sansation_Bold';
+	src: url('../fonts/Sansation/Sansation_Bold.ttf');
+}
+
+@font-face {
+	font-family: 'Journal';
+	src: url('../fonts/Journal/journal.ttf');
+}

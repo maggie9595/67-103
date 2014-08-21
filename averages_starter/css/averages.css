@@ -1,0 +1,13 @@
+#avgForm input {
+	margin-bottom: 5px;
+}
+
+h3 {
+	margin: 5px;
+}
+
+#displayAverage {
+	color: orange;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}

@@ -1,0 +1,19 @@
+#scoreBoard {
+	list-style-type: none;
+}
+
+#scoreBoard li {
+	display: inline-block;
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+#scoreBoard span {
+	color: orange;
+}
+
+#controls {
+	margin-left: 100px;
+}

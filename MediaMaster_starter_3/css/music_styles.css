@@ -1,0 +1,88 @@
+/* body#music overrides */
+body#music {
+	
+}
+
+body#music nav {
+	height: 40px;
+	background: #000080;
+	position: fixed;
+		
+	
+}
+
+body#music nav ul {
+	padding-top: 0px;
+	
+}
+
+body#music nav li a {
+	padding-top: 0px;
+	
+}
+
+#container {
+	background: #FFF4DA;
+	width: 1000px;
+	margin-left: 20px;
+	padding-top: 47px;
+}
+
+/* hidden class */
+.hidden {
+	display:none;
+}
+
+#container h1 {
+	
+	
+}
+
+#spotlight {
+	width: 570px;
+	padding: 10px;
+	margin-bottom: 20px;
+	float: left;
+	line-height: 1.3;
+}
+
+
+
+#top_singles, #top_albums {
+	width: 340px;
+	border-radius:10px;
+	-moz-border-radius: 10px;
+	padding: 10px 10px 5px 15px;
+	font-size: 95%;
+	margin-left: 630px;
+	margin-bottom: 10px;
+}
+
+#top_singles li, #top_albums li {
+	
+}
+
+#top_singles {
+	background: #DEF;
+	border: solid 2px #000080;
+}
+
+#top_albums {
+	background: #DCFFE5;
+	border: solid 2px #008000;
+}
+
+.title {
+	font-weight: bold;
+	font-size: 1em;
+}
+.artist {
+	
+}
+.album {
+	
+}
+
+footer {
+	clear: both;	
+}
